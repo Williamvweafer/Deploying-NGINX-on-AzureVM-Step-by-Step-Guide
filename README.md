@@ -29,7 +29,7 @@ Make sure to select RSA SSH Format so you can generate a key pair and change the
 
 ## Step 2: Networking Configuration 🌐
 
-When setting up your virtual network and subnet, ensure they are correctly configured to allow traffic to your VM (HTTP, port 80). Here's an example screenshot of my networking settings:
+When setting up your virtual network and subnet, ensure they are correctly configured to allow traffic to your VM (HTTP, port 80).This involves managing Network Security Groups (NSGs) Azure’s built-in firewall that controls inbound and outbound traffic for your VM. Here's an example screenshot of my networking settings:
 
 ![Image](Images/network.png)
 
@@ -88,7 +88,7 @@ If you followed the steps correctly, browsing to your VM’s public IP address s
 
 FYI: I have deleted this project in Azure, i see you looking at the IP...🕵️
 
-Bonus Tip: Clean Up Your Azure Resources 🧹
+## Bonus Tip: Clean Up Your Azure Resources 🧹
 If you're testing this deployment as a beginner or for learning purposes, remember to delete your Azure resources when you’re done to avoid unwanted charges. You can delete the entire resource group you created, which will remove the VM, networking components, and any related resources all at once.
 
 In the Azure Portal:
