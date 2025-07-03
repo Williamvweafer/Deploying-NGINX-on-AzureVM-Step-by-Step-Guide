@@ -79,7 +79,7 @@ nginx -v
 ```
 ![Image](Images/nginx-verify.png)
 
-Conclusion 🎉
+## Conclusion 🎉
 Congratulations! You’ve successfully deployed an NGINX web server on Microsoft Azure. This guide covered essential steps, including setting up networking, configuring security, and installing software on a remote server.
 
 If you followed the steps correctly, browsing to your VM’s public IP address should show this page:
